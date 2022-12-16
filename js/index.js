@@ -14,7 +14,7 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
-const url = "http://localhost:3000/";
+const url = "https://json-server-hktl.onrender.com/";
 let designerData = [];
 //banner
 const recommendRender = document.querySelector('.recommendRender')
@@ -172,7 +172,7 @@ function readerSwiper() {
 </div>
 </div>`
     })
-    swiperRender.innerHTML = str;
+    setTimeout(() => swiperRender.innerHTML = str, 1000);
 }
 getComment()
 

@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/";
+const url = "https://json-server-hktl.onrender.com/";
 const userName = document.querySelector('#name');
 const email = document.querySelector('#email');
 const password = document.querySelector('#password');

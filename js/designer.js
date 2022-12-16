@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/";
+const url = "https://json-server-hktl.onrender.com/";
 let params = (new URL(document.location)).searchParams;
 let id = parseInt(params.get('id'));
 const designerRender = document.querySelector('.designerRender');
