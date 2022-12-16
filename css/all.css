@@ -14080,9 +14080,7 @@ body {
   bottom: 0;
 }
 
-.container {
-  padding: 3rem;
-}
+
 
 .popularity {
   padding: .5rem;
@@ -14132,7 +14130,7 @@ h2 {
 }
 
 .recommend {
-  padding: 3rem;
+  padding: 1rem;
   position: relative;
   border: 3px solid var(--bs-primary);
 }
@@ -14186,7 +14184,7 @@ h2 {
 }
 
 .comment {
-  padding: 3rem;
+  padding: 1rem;
   position: relative;
   height: 100%;
 }
